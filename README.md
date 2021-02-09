@@ -14,3 +14,10 @@ int main(void)
     printf("%d", sum);
     return 0;
 }
+
+int func(void)
+{
+    static int a = 0;
+    a++;
+    return 0;
+}
